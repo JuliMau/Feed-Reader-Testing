@@ -12,7 +12,7 @@ framework [Jasmine](http://jasmine.github.io/).
 The testing is conducted by writing specs containing suites against
 blocks of application code. Upon running, the framework indicates the number of specs and
 failures. The suites(headers) are marked in black colour, and specs are in green.
-See picture: ![alt text](https://github.com/JuliMau/Feed-Reader-Testing/edit/master/feed_reader_test.jpg).
+See picture: ![Image: Feed Reader Test](https://github.com/JuliMau/Feed-Reader-Testing/edit/master/feed_reader_test.jpg).
 
 
 ## What Have Been Tested
