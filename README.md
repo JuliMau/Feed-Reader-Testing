@@ -2,7 +2,7 @@
 FEND4 Feed Reader Testing Project
 # Project Overview
 
-This is FEND Feed Reeder Testing Project.
+This is FEND Feed Reader Testing Project.
 The project aims at writing a number of tests against a pre-existing
 Feed Reader application by using behaviour-driven development
 framework [Jasmine](http://jasmine.github.io/).
@@ -10,7 +10,7 @@ framework [Jasmine](http://jasmine.github.io/).
 # Project Structure
 
 The testing is conducted by writing specs containing suites against
-a block of application code. Upon running, the framework indicates the number of specs and
+blocks of application code. Upon running, the framework indicates the number of specs and
 failures. The suites(headers) are marked in black colour, and specs are in green.
 
 
