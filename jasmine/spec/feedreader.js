@@ -69,9 +69,9 @@ $(function() {
      * clicked and does it hide when clicked again.
      */
     it('ensures the menu changes visibility when the icon is clicked', () => {
-      $('menu-icon-link').on('click');
+      $('menu-icon-link').click('click');
       expect($('body').hasClass('menu-hidden')).toBe(true);
-      $('menu-icon-link').on('click');
+      $('menu-icon-link').click('click');
       expect($('body').hasClass('menu-visible')).toBe(false);
     });
   });
@@ -93,7 +93,7 @@ $(function() {
     });
     /* a single .entry element within the .feed container*/
     it('ensures that there is at least a single .entry within the .feed container', () => {
-      expect($('feed .entry-link')).toBeDefined();
+      expect($('.feed .entry-link')).toBeDefined();
 
     });
   });
