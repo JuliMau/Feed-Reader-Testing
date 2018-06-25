@@ -70,9 +70,9 @@ $(function() {
      */
     it('ensures the menu changes visibility when the icon is clicked', () => {
       $('menu-icon-link').on('click');
-      expect($('body').hasClass('menu-hidden')).not.toBe(false);
-      $('menu-icon-link').on('click');
       expect($('body').hasClass('menu-hidden')).toBe(true);
+      $('menu-icon-link').on('click');
+      expect($('body').hasClass('menu-visible')).toBe(false);
     });
   });
 
